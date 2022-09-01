@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --orange:hsl(31, 77%, 52%);
+    --darkCyan:hsl(184, 100%, 22%);
+    --veryDarkCyan:hsl(179, 100%, 13%);
+    --transparentWhite:hsla(0, 0%, 100%, 0.75);
+    --veryLightGray:hsl(0, 0%, 95%);
+}
+
+body{
+    font-size: 15px;
+}
+
+main{
+    display: flex;
+    width: 1000px;
+    background-color: var(--veryLightGray);
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.img{
+    width: 60px;
+}
+
+h1{
+    color: var(--veryLightGray);
+    font-weight: 700;
+    font-family:'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:var(--veryLightGray);
+    width: 250px;
+    font-weight: 400;
+}
+
+.car1{
+    background-color: var(--orange);
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+.car2{
+    background-color: var(--darkCyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+.car3{
+    background-color: var(--veryDarkCyan);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding: 15px;
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button1{
+    color:var(--orange)
+}
+
+.button2{
+    color: var(--darkCyan);
+}
+
+.button3{
+    color: var(--veryDarkCyan);
+}
